@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  background-image: url("https://media.giphy.com/media/6YNgoTEPs6vZe/giphy.gif");
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4s ease-out;
+}
+.app.warm {
+  background-image: url("https://media.giphy.com/media/xT0wlvGLHmojbeu5vq/giphy.gif");
+}
+
+main {
+  min-height: 100vh;
+  padding: 50px;
+}
+.search-box {
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.search-bar {
+  display: block;
+  width: 100%;
+  padding: 20px;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: -25px;
+
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.3);
+
+  color: #313131;
+  font-size: 20px;
+
+  transition: 0.4s ease;
+}
+
+.location-box .location {
+  color: #black;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.location-box .date {
+  color: black;
+  font-size: 40px;
+  font-weight: 400;
+  font-style: bold;
+  text-align: center;
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-box .temp {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  padding: 15px 25px;
+  color: white;
+  font-size: 102px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.weather-box .weather {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
